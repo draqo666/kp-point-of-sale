@@ -1,0 +1,68 @@
+.find_place_header{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    h1{
+        margin: 0;
+        margin-bottom: 25px;
+        font-weight: normal;
+        span{
+            font-weight: bold;
+        }
+    }
+}
+.middle_section_left_cities{
+    flex-basis: 100%;
+    margin-top: 25px;
+    ::-webkit-scrollbar {
+        width: 6px;
+    }
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: #FAFAFA; 
+    }
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: $orange; 
+    }
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: $orange; 
+    }
+}
+.city_wrapper{
+    height: 342px;
+    overflow-y: auto;
+    background-color: #FAFAFA;
+    .active {
+        background: #f58220;
+        color: #fff;
+        border-bottom: 1px solid #f58220 !important;
+        a {
+            color: #fff;
+        }
+    }
+
+    .city{
+
+        border-bottom:1px solid $gray;
+        .city_inner_wrapper{
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+            width: 95%;
+            margin: 0 auto;
+        }
+        &:last-of-type{
+            border-bottom: 0;
+        }
+        p{
+            width: 100%;
+            margin: 0 auto;
+            padding: 15px 0;
+            text-align: right;
+            &:first-of-type{
+                text-align: left;
+            }
+        }
+    }
+}

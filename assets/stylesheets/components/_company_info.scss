@@ -1,0 +1,51 @@
+
+
+.companyInfo {
+    h1 {
+        margin: 0;
+        margin-bottom: 4rem;
+        font-size: 3rem;
+    }
+    &__details {
+        border: 1px solid #D9D9D9;
+        padding: 3rem;
+        .row {
+            margin: 0;
+        }
+        img {
+            margin-bottom: 1rem;
+        }
+    }
+    &__certificates {
+        border-bottom: 1px solid #D9D9D9;
+        border-left: 1px solid #D9D9D9;
+        border-right: 1px solid #D9D9D9;
+        padding: 3rem;
+        .row {
+            margin: 0;
+        }
+    }
+    &__contactItem {
+        margin-top: 1rem !important;
+        img {
+            width: 20px;
+            margin-right: 20px;
+            height: 20px;
+            margin-top: 3px;
+        }
+    }
+    &__logoCompany {
+        img {
+            margin-bottom: 3rem
+        }
+        @media only screen and (max-width:1024px){
+            text-align: center
+        }
+    }
+    &__logoType {
+        @media only screen and (max-width:1024px){
+            text-align: center
+        }
+    }
+
+}

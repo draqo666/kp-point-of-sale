@@ -1,0 +1,33 @@
+.searchbox_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    h1{
+        margin: 0;
+        font-weight: normal;
+        span{
+            font-weight: bold;
+            font-size: 2rem;
+        }
+    }
+    button, .button {
+        color:#fff;
+        font-size: 18px;
+        padding: 13px 25px;
+    }
+}
+@media only screen and (max-width:1024px){
+    .searchbox_info{
+        h1{
+            font-size:36px;
+        }
+    }
+}
+@media only screen and (max-width:600px){
+    .searchbox_info{
+        h1{
+            font-size:28px;
+        }
+    }
+}

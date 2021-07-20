@@ -1,0 +1,28 @@
+.breadcrumbs{
+    width: 100%;
+    padding: 10px 0;
+    ul{
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+        flex-wrap: wrap;
+        li{
+            margin-right: 15px;
+            &:last-of-type{
+                a{
+                    i{
+                        display: none;
+                    }
+                }
+            }
+            a{
+                text-decoration: none;
+                color:$gray;
+                i{
+                    margin-left: 10px;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}

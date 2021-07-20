@@ -1,0 +1,436 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Krispol - Point of Sale\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19 08:35+0000\n"
+"PO-Revision-Date: 2021-05-05 10:37+0200\n"
+"Last-Translator: admin <test@test.pl>\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.2\n"
+"X-Loco-Version: 2.3.0; wp-4.9.10\n"
+
+#: search-miasto-template.php:35 salony-template.php:27 salon-template.php:28
+#: miasto-template.php:27
+msgid "Lista salonów"
+msgstr "Zoznam salónov"
+
+#: search-miasto-template.php:36
+msgid "Wyszukanie"
+msgstr "Vyhľadávanie"
+
+#: search-miasto-template.php:43
+msgid "Wyszukiwanie dla frazy"
+msgstr "Vyhľadávanie pre frázu:"
+
+#: search-miasto-template.php:47 salon-template.php:44 miasto-template.php:40
+msgid "Wróć"
+msgstr "Späť"
+
+#: search-miasto-template.php:63 salony-template.php:51 miasto-template.php:57
+msgid "Wybierz produkty"
+msgstr "Zvoliť produkty"
+
+#: search-miasto-template.php:70 miasto-template.php:67
+msgid "Wybierz punkt sprzedaży"
+msgstr "Zvoliť predajne miesto"
+
+#: salony-template.php:35
+msgid "Znajdź salon"
+msgstr "Nájsť salón"
+
+#: salony-template.php:59
+msgid "Wybierz miasto"
+msgstr "Zvoliť mesto"
+
+#: salony-template.php:67 inc/register_sources.php:38
+msgid "Brak wyników"
+msgstr "Žiadne výsledky"
+
+#: salon-template.php:27 miasto-template.php:26
+msgid "Strona główna"
+msgstr "Domovská stránka"
+
+#: salon-template.php:206 inc/register_custom_post_types.php:179
+#: inc/register_custom_post_types.php:180 inc/register_custom_post_types.php:184
+msgid "Oferta"
+msgstr "Ponuka"
+
+#: salon-template.php:223 inc/register_sources.php:37 inc/kp_get_place_item.php:142
+msgid "Więcej"
+msgstr "Viac"
+
+#: salon-template.php:239
+msgid "Masz pytania? Napisz do nas"
+msgstr "Máte nejaké otázky? Napíšte nám"
+
+#: salon-template.php:246 inc/ajax_kp_send_mail.php:98 inc/include_admin_tables_cpt.php:14
+msgid "Imię i nazwisko"
+msgstr "Meno a priezvisko"
+
+#: salon-template.php:247
+msgid "np. Adam Kowalski"
+msgstr "napríklad Jan Kovacza"
+
+#: salon-template.php:250 inc/register_custom_fields.php:175 inc/register_custom_fields.php:460
+#: inc/ajax_kp_send_mail.php:105 inc/include_admin_tables_cpt.php:15
+#: inc/include_admin_tables_cpt.php:64
+msgid "Telefon"
+msgstr "Telefón"
+
+#: salon-template.php:251
+msgid "np. 500 123 456"
+msgstr "napríklad +421122334455"
+
+#: salon-template.php:254
+msgid "Adres e-mail"
+msgstr "E-mailová adresa"
+
+#: salon-template.php:255
+msgid "np. ak@domena.pl"
+msgstr "napríklad info@domena.sk"
+
+#: salon-template.php:260 inc/ajax_kp_send_mail.php:119
+msgid "Treść wiadomości"
+msgstr "Obsah správy"
+
+#: salon-template.php:275
+msgid "Wyślij"
+msgstr "Odoslať"
+
+#: salon-template.php:281
+msgid "Formularz korzysta z zabezpieczenia Google reCaptcha"
+msgstr "Formulár používa zabezpečenie Google reCaptcha"
+
+#: salon-template.php:284
+msgid "Prywatność"
+msgstr "Ochrana osobných údajov"
+
+#: salon-template.php:285
+msgid "Warunki"
+msgstr "Podmienky"
+
+#: miasto-template.php:76
+msgid "Brak wyników spełniających kryteria"
+msgstr "Vašim kritériám nezodpovedajú žiadne výsledky"
+
+#: inc/register_sources.php:35
+msgid "Skorzystaj z wyszukiwarki"
+msgstr "Použiť vyhľadávací nástroj"
+
+#: inc/register_sources.php:36
+msgid "Wyszukaj"
+msgstr "Vyhľadať"
+
+#: inc/register_sources.php:39
+msgid "Wystąpił nieoczekiwany błąd, spróbuj za chwilę ponownie."
+msgstr "Vyskytla sa neočakávaná chyba, skúste to znova čoskoro."
+
+#: inc/register_sources.php:40
+msgid "Wpisz dowolny adres lub miasto i znajdź salon w pobliżu"
+msgstr "Zadajte ľubovoľnú adresu alebo mesto a nájdite salón v okolí"
+
+#: inc/register_custom_post_types.php:26
+msgid "Salony"
+msgstr "Salóny"
+
+#: inc/register_custom_post_types.php:27 inc/kp_get_cities.php:44
+msgid "salon"
+msgstr "salón"
+
+#: inc/register_custom_post_types.php:28 inc/register_custom_post_types.php:33
+msgid "Mapa - Salony"
+msgstr ""
+
+#: inc/register_custom_post_types.php:29
+msgid "Wszystkie salony"
+msgstr ""
+
+#: inc/register_custom_post_types.php:62
+msgid "Wiadomości"
+msgstr ""
+
+#: inc/register_custom_post_types.php:63
+msgid "Wiadomość"
+msgstr ""
+
+#: inc/register_custom_post_types.php:64 inc/register_custom_post_types.php:69
+msgid "Formularze - Salony"
+msgstr ""
+
+#: inc/register_custom_post_types.php:65
+msgid "Wszystkie wiadomości"
+msgstr ""
+
+#: inc/register_custom_post_types.php:106 inc/register_custom_post_types.php:108
+#: inc/register_custom_post_types.php:123
+msgid "Miasta"
+msgstr ""
+
+#: inc/register_custom_post_types.php:107
+msgid "Miasto"
+msgstr "Mesto"
+
+#: inc/register_custom_post_types.php:109
+msgid "Wszystkie miasta"
+msgstr ""
+
+#: inc/register_custom_post_types.php:110
+msgid "Edytuj miasto"
+msgstr ""
+
+#: inc/register_custom_post_types.php:111
+msgid "Zobacz miasto"
+msgstr ""
+
+#: inc/register_custom_post_types.php:112
+msgid "Zaktualizuj miasto"
+msgstr ""
+
+#: inc/register_custom_post_types.php:113 inc/register_custom_post_types.php:114
+msgid "Dodaj nowe miasto"
+msgstr ""
+
+#: inc/register_custom_post_types.php:115
+msgid "Wyszukaj miasta"
+msgstr ""
+
+#: inc/register_custom_post_types.php:116
+msgid "Popularne miasta"
+msgstr ""
+
+#: inc/register_custom_post_types.php:117
+msgid "Dodaj lub usuń miasta"
+msgstr ""
+
+#: inc/register_custom_post_types.php:118
+msgid "Nie znaleziono miast"
+msgstr ""
+
+#: inc/register_custom_post_types.php:119
+msgid "Brak miast"
+msgstr ""
+
+#: inc/register_custom_post_types.php:148 inc/register_custom_post_types.php:149
+#: inc/register_custom_post_types.php:153
+msgid "Rodzaj placówki"
+msgstr ""
+
+#: inc/register_custom_post_types.php:210 inc/register_custom_post_types.php:215
+msgid "Certyfikaty"
+msgstr ""
+
+#: inc/register_custom_post_types.php:211
+msgid "Certyfikat"
+msgstr ""
+
+#: inc/register_custom_fields.php:30
+msgid "Tekst główny modułu"
+msgstr ""
+
+#: inc/register_custom_fields.php:49
+msgid "Treść zgody w formularzach"
+msgstr ""
+
+#: inc/register_custom_fields.php:91
+msgid "Klucz publiczny"
+msgstr ""
+
+#: inc/register_custom_fields.php:110
+msgid "Klucz prywatny"
+msgstr ""
+
+#: inc/register_custom_fields.php:152
+msgid "Dane punktu sprzedaży"
+msgstr ""
+
+#: inc/register_custom_fields.php:156
+msgid "Adres"
+msgstr ""
+
+#: inc/register_custom_fields.php:168
+msgid "np. Jesionowa 5/15"
+msgstr ""
+
+#: inc/register_custom_fields.php:196
+msgid "Telefon komórkowy"
+msgstr ""
+
+#: inc/register_custom_fields.php:217
+msgid "Fax"
+msgstr ""
+
+#: inc/register_custom_fields.php:238 inc/register_custom_fields.php:441
+#: inc/ajax_kp_send_mail.php:112
+msgid "E-mail"
+msgstr ""
+
+#: inc/register_custom_fields.php:256
+msgid "E-mail dla formularza"
+msgstr ""
+
+#: inc/register_custom_fields.php:274
+msgid "WWW"
+msgstr ""
+
+#: inc/register_custom_fields.php:290
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/register_custom_fields.php:306
+msgid "Geo Cords (lat)"
+msgstr ""
+
+#: inc/register_custom_fields.php:325
+msgid "Geo Cords (lng)"
+msgstr ""
+
+#: inc/register_custom_fields.php:344
+msgid "Kraj"
+msgstr ""
+
+#: inc/register_custom_fields.php:399
+msgid "Formularze"
+msgstr ""
+
+#: inc/register_custom_fields.php:403 inc/include_admin_tables_cpt.php:13
+#: inc/include_admin_tables_cpt.php:61
+msgid "Adresat"
+msgstr ""
+
+#: inc/register_custom_fields.php:422 inc/include_admin_tables_cpt.php:12
+#: inc/include_admin_tables_cpt.php:62
+msgid "Nadawca"
+msgstr ""
+
+#: inc/register_custom_fields.php:479 inc/include_admin_tables_cpt.php:65
+msgid "Treść"
+msgstr ""
+
+#: inc/register_custom_fields.php:521
+msgid "Ikony"
+msgstr ""
+
+#: inc/register_custom_fields.php:525
+msgid "Ikona"
+msgstr ""
+
+#: inc/register_custom_fields.php:587
+msgid "Typ placówki"
+msgstr ""
+
+#: inc/register_custom_fields.php:591
+msgid "Ikona na mapie"
+msgstr ""
+
+#: inc/register_custom_fields.php:634
+msgid "Pozycjonowanie"
+msgstr ""
+
+#: inc/register_custom_fields.php:638
+msgid "Wartość pozycji"
+msgstr ""
+
+#: inc/register_custom_fields.php:641
+msgid ""
+"Ustal wartość pozycjonowania elementu. Jeśli zaznaczysz wartość 1 - element będzie sortowany "
+"jako pierwszy, jeśli 10 element będzie sortowany jako ostatni."
+msgstr ""
+
+#: inc/register_custom_fields.php:696
+msgid "Typ oferty"
+msgstr ""
+
+#: inc/register_custom_fields.php:700
+msgid "URL Oferty (redirect)"
+msgstr ""
+
+#: inc/register_custom_fields.php:739
+msgid "Kolory"
+msgstr ""
+
+#: inc/register_custom_fields.php:743
+msgid "Kolor"
+msgstr ""
+
+#: inc/register_custom_fields.php:758
+msgid "Kolor text"
+msgstr ""
+
+#: inc/kp_get_cities.php:46
+msgid "salony"
+msgstr "salóny"
+
+#: inc/kp_get_cities.php:48
+msgid "salonów"
+msgstr "salónov"
+
+#: inc/ajax_kp_send_mail.php:45 inc/ajax_kp_send_mail.php:89 inc/ajax_kp_send_mail.php:135
+msgid "Problem z wysłaniem wiadomości. Skontaktuj się na adres e-mail biuro@krispol.pl"
+msgstr "Problém s odoslaním správy. Kontaktujte nás na e-mailovej adrese biuro@krispol.pl"
+
+#: inc/ajax_kp_send_mail.php:83
+msgid "Dziękujemy za wysłanie wiadomości"
+msgstr "Ďakujeme za odoslanie správy"
+
+#: inc/ajax_kp_send_mail.php:96
+msgid "Nie wypełniłeś wszystkich pól: "
+msgstr ""
+
+#: inc/ajax_kp_send_mail.php:124
+msgid "oraz"
+msgstr ""
+
+#: inc/ajax_kp_send_mail.php:126
+msgid "nie zaznaczyłeś zgody na przetwarzanie danych osobowych."
+msgstr ""
+
+#: inc/kp_product_filter.php:36
+msgid "Filtruj"
+msgstr "Filtrovať"
+
+#: inc/kp_product_filter.php:37
+msgid "Reset"
+msgstr "Resetovať"
+
+#: inc/include_admin_tables_cpt.php:16
+msgid "Wysłano"
+msgstr "Správa bola odoslaná správne."
+
+#: inc/include_admin_tables_cpt.php:63
+msgid "Imię i Nazwisko"
+msgstr ""
+
+#. Name of the plugin
+msgid "Krispol - Point of Sale"
+msgstr ""
+
+#. Description of the plugin
+msgid "Plugin help show point of sale and import/export prodcedure"
+msgstr ""
+
+#. Author of the plugin
+msgid "OX Media"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://oxmedia.pl"
+msgstr ""
+
+#: search-miasto-template.php:72
+msgid "W podanym obszarze poszukiwań nie znaleziono salonów, dlatego powiększyliśmy go do %s km"
+msgstr ""
+"V danej vyhľadávanej oblasti sa nenašli žiadne showroomy, preto sme oblasť zväčšili na %s km "
+
+#~ msgid "Wstecz"
+#~ msgstr "Zurück"
+
+#~ msgid "Nazwa lub adres salonu"
+#~ msgstr "Name oder Adresse vom Salon"
+
+#~ msgid "salony-miasto"
+#~ msgstr "salons-stadt"

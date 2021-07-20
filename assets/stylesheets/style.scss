@@ -1,0 +1,35 @@
+// Base
+@import './base/bootstrap';
+@import './base/colors';
+@import './base/buttons';
+@import './base/settings';
+@import './base/leaflet';
+
+@import '~react-leaflet-markercluster/dist/styles.min.css';
+
+// Components
+@import './components/breadcrumbs';
+@import './components/searchbox';
+@import './components/company_info';
+@import './components/offer';
+@import './components/contact_form';
+@import './components/products';
+@import './components/searchbox_info';
+@import './components/find_place';
+@import './components/markers';
+@import './components/map';
+@import './components/map_popup';
+@import './components/modal';
+@import './components/header';
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  * html .clearfix             { zoom: 1; } /* IE6 */
+  *:first-child+html .clearfix { zoom: 1; } /* IE7 */

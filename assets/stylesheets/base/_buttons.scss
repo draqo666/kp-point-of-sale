@@ -1,0 +1,63 @@
+.krispol_button, a.button.krispol_button {
+    text-align: center;
+    cursor: pointer;
+    padding: 15px;
+    box-sizing: border-box;
+    &:hover {
+        color:white;
+    }
+    &:focus {
+        color:white;
+    }
+}
+
+a.button.krispol_button {
+    color: white !important;
+    font-weight: 100;
+}
+.krispol_button_orange{
+    background-color:$orange;
+    border: 1px solid $orange;
+    color:#fff !important;
+}
+
+.krispol_button_gray, a.button.krispol_button_gray {
+    background-color:$light_gray;
+    border: 1px solid $light_gray;
+    color:#000;
+}
+
+.krispol_tag {
+    background-color: #C3C3C3;
+    position: relative;
+    border: 0;
+    text-transform: uppercase;
+    font-size: 1.25rem !important;
+    color: #000;
+    margin-right: 0.5rem;
+    padding: 4px 10px;
+    display: block;
+    float: left;
+    margin-bottom: 1rem;
+
+}
+button.krispol_tag {
+    cursor:help;
+    &:focus {
+        outline: none !important;
+    }
+}
+
+.btn-search {
+    margin-top: 16px;
+    background-color: #C3C3C3;
+    border: 1px solid #C3C3C3;
+    color: #000;
+    display: block;
+    text-align: center;
+    padding: 1rem 2rem;
+    color:#fff !important;
+    &:hover {
+        color: #fff;
+    }
+}

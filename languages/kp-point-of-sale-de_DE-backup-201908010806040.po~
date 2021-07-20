@@ -1,0 +1,414 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Krispol - Point of Sale\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-01 07:56+0000\n"
+"PO-Revision-Date: 2019-08-01 07:59+0000\n"
+"Last-Translator: admin <test@test.pl>\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-4.9.10"
+
+#: search-miasto-template.php:96 salony-template.php:35 salon-template.php:21
+#: miasto-template.php:38
+msgid "Lista salonów"
+msgstr ""
+
+#: salony-template.php:42
+msgid "Znajdź salon"
+msgstr ""
+
+#: salony-template.php:58 miasto-template.php:65
+msgid "Wybierz produkty"
+msgstr ""
+
+#: salony-template.php:66
+msgid "Wybierz miasto"
+msgstr ""
+
+#: salony-template.php:126
+msgid "salonów"
+msgstr ""
+
+#: salon-template.php:20 miasto-template.php:37
+msgid "Strona główna"
+msgstr ""
+
+#: salon-template.php:37 miasto-template.php:50
+msgid "Wstecz"
+msgstr ""
+
+#: salon-template.php:186 inc/register_custom_post_types.php:166
+#: inc/register_custom_post_types.php:167
+#: inc/register_custom_post_types.php:171
+msgid "Oferta"
+msgstr ""
+
+#: salon-template.php:203 inc/kp_get_place_item.php:123
+msgid "Więcej"
+msgstr ""
+
+#: salon-template.php:219
+msgid "Masz pytania? Napisz do nas"
+msgstr ""
+
+#: salon-template.php:226 inc/ajax_kp_send_mail.php:79
+#: inc/include_admin_tables_cpt.php:6
+msgid "Imię i nazwisko"
+msgstr ""
+
+#: salon-template.php:227
+msgid "np. Adam Kowalski"
+msgstr ""
+
+#: salon-template.php:230 inc/register_custom_fields.php:163
+#: inc/register_custom_fields.php:448 inc/ajax_kp_send_mail.php:84
+#: inc/include_admin_tables_cpt.php:7 inc/include_admin_tables_cpt.php:56
+msgid "Telefon"
+msgstr ""
+
+#: salon-template.php:231
+msgid "np. 500 123 456"
+msgstr ""
+
+#: salon-template.php:234
+msgid "Adres e-mail"
+msgstr ""
+
+#: salon-template.php:235
+msgid "np. ak@domena.pl"
+msgstr ""
+
+#: salon-template.php:240 inc/ajax_kp_send_mail.php:94
+msgid "Treść wiadomości"
+msgstr ""
+
+#: salon-template.php:255
+msgid "Wyślij"
+msgstr ""
+
+#: salon-template.php:261
+msgid "Formularz korzysta z zabezpieczenia Google reCaptcha"
+msgstr ""
+
+#: salon-template.php:264
+msgid "Prywatność"
+msgstr ""
+
+#: salon-template.php:265
+msgid "Warunki"
+msgstr ""
+
+#: miasto-template.php:75
+msgid "Wybierz punkt sprzedaży"
+msgstr ""
+
+#: miasto-template.php:141
+msgid "Brak wyników spełniających kryteria"
+msgstr ""
+
+#: inc/kp_search.php:10
+msgid "Skorzystaj z wyszukiwarki"
+msgstr ""
+
+#: inc/kp_search.php:13
+msgid "Nazwa lub adres salonu"
+msgstr ""
+
+#: inc/kp_search.php:16
+msgid "Wyszukaj"
+msgstr ""
+
+#: inc/register_custom_post_types.php:12
+msgid "Salony"
+msgstr ""
+
+#: inc/register_custom_post_types.php:13
+msgid "salon"
+msgstr ""
+
+#: inc/register_custom_post_types.php:14 inc/register_custom_post_types.php:19
+msgid "Mapa - Salony"
+msgstr ""
+
+#: inc/register_custom_post_types.php:15
+msgid "Wszystkie salony"
+msgstr ""
+
+#: inc/register_custom_post_types.php:36
+msgid "salony-miasto"
+msgstr "salons-stadt"
+
+#: inc/register_custom_post_types.php:48
+msgid "Wiadomości"
+msgstr ""
+
+#: inc/register_custom_post_types.php:49
+msgid "Wiadomość"
+msgstr ""
+
+#: inc/register_custom_post_types.php:50 inc/register_custom_post_types.php:55
+msgid "Formularze - Salony"
+msgstr ""
+
+#: inc/register_custom_post_types.php:51
+msgid "Wszystkie wiadomości"
+msgstr ""
+
+#: inc/register_custom_post_types.php:92 inc/register_custom_post_types.php:94
+#: inc/register_custom_post_types.php:109
+msgid "Miasta"
+msgstr ""
+
+#: inc/register_custom_post_types.php:93
+msgid "Miasto"
+msgstr ""
+
+#: inc/register_custom_post_types.php:95
+msgid "Wszystkie miasta"
+msgstr ""
+
+#: inc/register_custom_post_types.php:96
+msgid "Edytuj miasto"
+msgstr ""
+
+#: inc/register_custom_post_types.php:97
+msgid "Zobacz miasto"
+msgstr ""
+
+#: inc/register_custom_post_types.php:98
+msgid "Zaktualizuj miasto"
+msgstr ""
+
+#: inc/register_custom_post_types.php:99 inc/register_custom_post_types.php:100
+msgid "Dodaj nowe miasto"
+msgstr ""
+
+#: inc/register_custom_post_types.php:101
+msgid "Wyszukaj miasta"
+msgstr ""
+
+#: inc/register_custom_post_types.php:102
+msgid "Popularne miasta"
+msgstr ""
+
+#: inc/register_custom_post_types.php:103
+msgid "Dodaj lub usuń miasta"
+msgstr ""
+
+#: inc/register_custom_post_types.php:104
+msgid "Nie znaleziono miast"
+msgstr ""
+
+#: inc/register_custom_post_types.php:105
+msgid "Brak miast"
+msgstr ""
+
+#: inc/register_custom_post_types.php:135
+#: inc/register_custom_post_types.php:136
+#: inc/register_custom_post_types.php:140
+msgid "Rodzaj placówki"
+msgstr ""
+
+#: inc/register_custom_post_types.php:197
+#: inc/register_custom_post_types.php:202
+msgid "Certyfikaty"
+msgstr ""
+
+#: inc/register_custom_post_types.php:198
+msgid "Certyfikat"
+msgstr ""
+
+#: inc/register_custom_fields.php:18
+msgid "Tekst główny modułu"
+msgstr ""
+
+#: inc/register_custom_fields.php:37
+msgid "Treść zgody w formularzach"
+msgstr ""
+
+#: inc/register_custom_fields.php:79
+msgid "Klucz publiczny"
+msgstr ""
+
+#: inc/register_custom_fields.php:98
+msgid "Klucz prywatny"
+msgstr ""
+
+#: inc/register_custom_fields.php:140
+msgid "Dane punktu sprzedaży"
+msgstr ""
+
+#: inc/register_custom_fields.php:144
+msgid "Adres"
+msgstr ""
+
+#: inc/register_custom_fields.php:156
+msgid "np. Jesionowa 5/15"
+msgstr ""
+
+#: inc/register_custom_fields.php:184
+msgid "Telefon komórkowy"
+msgstr ""
+
+#: inc/register_custom_fields.php:205
+msgid "Fax"
+msgstr ""
+
+#: inc/register_custom_fields.php:226 inc/register_custom_fields.php:429
+#: inc/ajax_kp_send_mail.php:89
+msgid "E-mail"
+msgstr ""
+
+#: inc/register_custom_fields.php:244
+msgid "E-mail dla formularza"
+msgstr ""
+
+#: inc/register_custom_fields.php:262
+msgid "WWW"
+msgstr ""
+
+#: inc/register_custom_fields.php:278
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/register_custom_fields.php:294
+msgid "Geo Cords (lat)"
+msgstr ""
+
+#: inc/register_custom_fields.php:313
+msgid "Geo Cords (lng)"
+msgstr ""
+
+#: inc/register_custom_fields.php:332
+msgid "Kraj"
+msgstr ""
+
+#: inc/register_custom_fields.php:387
+msgid "Formularze"
+msgstr ""
+
+#: inc/register_custom_fields.php:391 inc/include_admin_tables_cpt.php:5
+#: inc/include_admin_tables_cpt.php:53
+msgid "Adresat"
+msgstr ""
+
+#: inc/register_custom_fields.php:410 inc/include_admin_tables_cpt.php:4
+#: inc/include_admin_tables_cpt.php:54
+msgid "Nadawca"
+msgstr ""
+
+#: inc/register_custom_fields.php:467 inc/include_admin_tables_cpt.php:57
+msgid "Treść"
+msgstr ""
+
+#: inc/register_custom_fields.php:509
+msgid "Ikony"
+msgstr ""
+
+#: inc/register_custom_fields.php:513
+msgid "Ikona"
+msgstr ""
+
+#: inc/register_custom_fields.php:575
+msgid "Typ placówki"
+msgstr ""
+
+#: inc/register_custom_fields.php:579
+msgid "Ikona na mapie"
+msgstr ""
+
+#: inc/register_custom_fields.php:622
+msgid "Pozycjonowanie"
+msgstr ""
+
+#: inc/register_custom_fields.php:626
+msgid "Wartość pozycji"
+msgstr ""
+
+#: inc/register_custom_fields.php:629
+msgid ""
+"Ustal wartość pozycjonowania elementu. Jeśli zaznaczysz wartość 1 - element "
+"będzie sortowany jako pierwszy, jeśli 10 element będzie sortowany jako "
+"ostatni."
+msgstr ""
+
+#: inc/register_custom_fields.php:684
+msgid "Typ oferty"
+msgstr ""
+
+#: inc/register_custom_fields.php:688
+msgid "URL Oferty (redirect)"
+msgstr ""
+
+#: inc/register_custom_fields.php:727
+msgid "Kolory"
+msgstr ""
+
+#: inc/register_custom_fields.php:731
+msgid "Kolor"
+msgstr ""
+
+#: inc/register_custom_fields.php:746
+msgid "Kolor text"
+msgstr ""
+
+#: inc/ajax_kp_send_mail.php:25 inc/ajax_kp_send_mail.php:69
+#: inc/ajax_kp_send_mail.php:108
+msgid ""
+"Problem z wysłaniem wiadomości. Skontaktuj się na adres e-mail biuro@krispol."
+"oxmedia.com.pl"
+msgstr ""
+
+#: inc/ajax_kp_send_mail.php:63
+msgid "Dziękujemy za wysłanie wiadomości"
+msgstr ""
+
+#: inc/ajax_kp_send_mail.php:77
+msgid "Nie wypełniłeś wszystkich pól: "
+msgstr ""
+
+#: inc/ajax_kp_send_mail.php:98
+msgid "oraz"
+msgstr ""
+
+#: inc/ajax_kp_send_mail.php:99
+msgid "nie zaznaczyłeś zgody na przetwarzanie danych osobowych."
+msgstr ""
+
+#: inc/kp_product_filter.php:29
+msgid "Filtruj"
+msgstr ""
+
+#: inc/kp_product_filter.php:30
+msgid "Reset"
+msgstr ""
+
+#: inc/include_admin_tables_cpt.php:8
+msgid "Wysłano"
+msgstr ""
+
+#: inc/include_admin_tables_cpt.php:55
+msgid "Imię i Nazwisko"
+msgstr ""
+
+#. Name of the plugin
+msgid "Krispol - Point of Sale"
+msgstr ""
+
+#. Description of the plugin
+msgid "Plugin help show point of sale and import/export prodcedure"
+msgstr ""
+
+#. Author of the plugin
+msgid "OX Media"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://oxmedia.pl"
+msgstr ""

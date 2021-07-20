@@ -1,0 +1,99 @@
+.kp_point_of_sale {
+
+    a{
+        text-decoration: none;
+        color:unset;
+    }
+    section{
+        margin-top: 50px;
+        .section_title{
+            text-align: center;
+            font-size: 30px;
+            margin-top: 0;
+            margin-bottom: 50px;
+        }
+    }
+    margin-bottom: 5rem;
+}
+.kp_point_of_sale * {
+    letter-spacing: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.kp_point_of_sale input,
+.kp_point_of_sale textarea {
+    background-color: white;
+    cursor: text;
+}
+
+.kp_point_of_sale {
+    h1 {
+        font-size: 3.5rem;
+        margin-bottom: 2rem;
+        font-weight: bold;
+    }
+    p {
+        margin-bottom: 0.25rem;
+        margin-top: 0.5rem
+    }
+    .krispol_button_gray {
+        a, button {
+            font-weight: 600;
+        }
+    }
+    label {
+        display: block;
+    }
+}
+
+.not-active {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+    color: black;
+}
+.not-padding {
+    padding: 0 !important;
+}
+.not-margin {
+    margin: 0 !important;
+}
+#kpMap {
+    z-index: 1;
+    @media only screen and (max-width:991px){
+        height: 500px;
+    }
+}
+input {
+    border-radius: 0 !important;
+}
+input[type="reset"] {
+    color:#fff;
+    background-color: #c1c1c1!important;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 18px;
+    height: auto;
+    padding: 10px 30px;
+    margin: 0 10px 20px 0;
+    font-weight: bold;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    border: 0;
+    position: relative;
+    overflow: hidden;
+    outline: none;
+    text-shadow: none;
+    text-decoration: none;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    vertical-align: middle;
+    max-width: 100%;
+}
+
