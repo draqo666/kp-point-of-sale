@@ -125,6 +125,29 @@ function wpml_get_code( $lang = "" ) {
  
     return false;
 }
+
+add_action('wp_head', 'redirect_city');
+function redirect_city() { ?>
+    <script>
+        var ajaxurl = '<?php echo admin_url( 'admin-ajax.php' );?>';
+        jQuery(document).ready(function() {
+            jQuery('.get_city_link').click(function(e) {
+                e.preventDefault();
+
+                const city_name = jQuery(this).data('city-name');
+
+                const data = {
+                    'action' : 'get_city_results',
+                    'city_name': city_name
+                };
+
+                jQuery.post(ajaxurl, data, function(response) {
+                    window.location.href = response;
+                });
+            })
+        })
+    </script>
+<?php }
  
 // add_action( 'admin_enqueue_scripts', 'enqueuing_admin_scripts' );
 
