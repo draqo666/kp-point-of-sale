@@ -15,6 +15,23 @@
  * 
  */
 
+function get_term_meta( $term_id, $key = '', $single = false ) {
+    return get_metadata( 'term', $term_id, $key, $single );
+}
+
+function kp_get_term_meta($term_id, $key) {
+    global $wpdb;
+
+    $result = $wpdb->get_row( $wpdb->prepare( "
+        SELECT meta_value
+        FROM {$wpdb->prefix}termmeta
+        WHERE term_id = %d AND meta_key = %s",
+        $term_id, $key
+    ) );
+
+    return $result->meta_value;
+}
+
 function kp_search_posts($args, $ids = false) {
     // ( isset($args['locale']) ) ? $args['locale'] = 'pl_PL' : null;
     /*
@@ -83,7 +100,7 @@ function kp_search_posts($args, $ids = false) {
 
     foreach( $list as $post=>$distance ) {
         $terms = get_the_terms($post, 'typ_placowki' )[0];
-        $kp_value_position = get_term_meta($terms->term_id, 'kp_value_position', true);
+        $kp_value_position = get_field('kp_value_position', $terms);
 
         $lista[$kp_value_position][$post] = $distance;
     }
